@@ -4,7 +4,8 @@ end
 
 module Kandan
   def self.devise_modules
-    standard = [:database_authenticatable, :registerable,
+    standard = [:database_authenticatable,
+              # :registerable,
                 :recoverable, :rememberable, :trackable, :validatable,
                 :token_authenticatable]
   end

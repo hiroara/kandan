@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 # Database adapters
-gem 'pg'
+# gem 'pg'
 
 # Uncomment next line when using MySQL database
 #gem 'mysql2'
@@ -24,6 +24,9 @@ gem 'paperclip'
 gem 'remotipart'
 gem 'jquery-rails'
 gem 'enumerize'
+
+gem 'therubyracer'
+gem 'rb-readline'
 
 # Gems used only for assets and not required
 # in production environments by default.

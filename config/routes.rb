@@ -5,6 +5,7 @@ Kandan::Application.routes.draw do
   }
 
   root :to => "main#index"
+  devise_for :users, :skip => :registrations
 
   get '/search' => "main#search"
 
