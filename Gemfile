@@ -6,7 +6,7 @@ ruby '1.9.3'
 gem 'rails', '3.2.12'
 
 # Database adapters
-gem 'pg'
+# gem 'pg'
 
 # Auth gems
 gem 'devise'
@@ -22,6 +22,9 @@ gem 'paperclip'
 gem 'remotipart'
 gem 'jquery-rails'
 gem 'enumerize'
+
+gem 'therubyracer'
+gem 'rb-readline'
 
 # Gems used only for assets and not required
 # in production environments by default.
