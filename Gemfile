@@ -1,15 +1,17 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
-
 # Core gems
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 
 # Database adapters
 # gem 'pg'
 
+# Uncomment next line when using MySQL database
+#gem 'mysql2'
+
 # Auth gems
 gem 'devise'
+gem 'cancan'
 
 # Server/transport gems
 gem 'thin'
@@ -60,6 +62,10 @@ group :test do
   gem 'factory_girl_rails'
   gem 'simplecov', :require => false
   gem 'coveralls', :require => false
+
+  gem 'poltergeist'
+  gem 'launchy'
+  gem 'capybara'
 end
 
 group :development, :test do
